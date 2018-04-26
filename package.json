@@ -4,7 +4,8 @@
   "description": "Clean, lightweight Components for React Native",
   "main": "index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "example": "example"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,10 +29,8 @@
   "homepage": "https://github.com/wkoutre/react-native-common-lib#readme",
   "peerDependencies": {
     "react": ">= 16.2.0",
-    "react-native": ">= 0.52.0"
-  },
-  "dependencies": {
-    "react-native-modal": "5.2.0"
+    "react-native": ">= 0.52.0",
+    "react-native-modal": ">= 5.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",

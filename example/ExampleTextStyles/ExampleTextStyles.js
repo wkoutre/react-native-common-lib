@@ -49,7 +49,7 @@ const createFontStyleObj = ({
   return headerStyles;
 };
 
-const TextStyles = StyleSheet.create({
+const ExampleTextStyles = StyleSheet.create({
   ...createFontStyleObj({
     fontSizesObj: DEFAULT_HEADER_SIZES,
     fontWeight: DEFAULT_H_FONT_WEIGHT,
@@ -88,4 +88,4 @@ const TextStyles = StyleSheet.create({
   // }
 });
 
-export { TextStyles };
+export { ExampleTextStyles };
