@@ -8,8 +8,8 @@ The first two objects that need setting up are `GlobalColors` and `GlobalTextSty
 
 Two classes provided by this library help with this:
 
-- [https://github.com/wkoutre/react-native-common-lib/blob/master/lib/commonAssets/CreateTextStyles.js](./lib/commonAssets/CreateTextStyles) : `CreateTextStyles`
-- [https://github.com/wkoutre/react-native-common-lib/blob/master/lib/commonHelpers/index.js](./lib/commonHelpers/index.js): `CommonAssets`
+- [CreateTextStyles](https://github.com/wkoutre/react-native-common-lib/blob/master/lib/commonAssets/CreateTextStyles.js)
+- [CommonAssets](https://github.com/wkoutre/react-native-common-lib/blob/master/lib/commonHelpers/index.js)
 
 
 #### CreateTextStyles
@@ -50,13 +50,13 @@ textStylesConfig = {
 }
 ```
 
-[https://github.com/wkoutre/react-native-common-lib/blob/master/lib/commonAssets/CreateTextStyles.js](./lib/commonAssets/CreateTextStyles) creates and exports the `DefaultTextStyles` class.
+[./lib/commonAssets/CreateTextStyles](https://github.com/wkoutre/react-native-common-lib/blob/master/lib/commonAssets/CreateTextStyles.js) creates and exports the `DefaultTextStyles` class.
 
 Import to note is that a class that's an `instanceof CreateTextStyles` has a `getter`: `get allTextStyles` which returns the `TextStyles` React Native StyleSheet object created when instantiating the `CreateTextStyles` class.
 
 #### CommonAssets
 
-Within [https://github.com/wkoutre/react-native-common-lib/blob/master/lib/commonHelpers/index.js](./lib/commonHelpers/index.js), there is a `CommonAssets` class. It takes a `config` object with the following shape:
+Within [./lib/commonHelpers/index.js](https://github.com/wkoutre/react-native-common-lib/blob/master/lib/commonHelpers/index.js), there is a `CommonAssets` class. It takes a `config` object with the following shape:
 
 ```
 {
@@ -66,9 +66,9 @@ Within [https://github.com/wkoutre/react-native-common-lib/blob/master/lib/commo
 }
 ```
 
-Please see [https://github.com/wkoutre/react-native-common-lib/blob/master/example/ExampleColors/ExampleColors.js](./example/ExampleColors) for an example `Colors` object.
+Please see [./example/ExampleColors](https://github.com/wkoutre/react-native-common-lib/blob/master/example/ExampleColors/ExampleColors.js) for an example `Colors` object.
 
-By default, [https://github.com/wkoutre/react-native-common-lib/blob/master/lib/commonHelpers/index.js](./lib/commonHelpers/index.js) creates and exports `DefaultCommonAssets`, which is an `instanceof` the `CommonAssets` class instantiated with the default params, using `DefaultTextStyles` as the `TextStyles` param in the `config`.
+By default, [./lib/commonHelpers/index.js](https://github.com/wkoutre/react-native-common-lib/blob/master/lib/commonHelpers/index.js) creates and exports `DefaultCommonAssets`, which is an `instanceof` the `CommonAssets` class instantiated with the default params, using `DefaultTextStyles` as the `TextStyles` param in the `config`.
 
 The `CommonAssets` class has two `getters`:
 
