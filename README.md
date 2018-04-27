@@ -139,11 +139,13 @@ Each of these components are used in (at the time of creation) as many as 5 prod
 
 I've ported each of these from various projects I've worked on, making some tweaks as I built this to be published on NPM. Therefore, there are likely some bugs -- probably in UI -- that will need to be squashed in the first few `minor` releases.
 
-There are more I need to add! But I've put this off long enough and wanted to get it up and running as I continue to create a React Native boilerplate of sorts to get projects up and running for my team and me.
+There are more I need to add! But I've put this off long enough and wanted to get it up and running as I continue to create a React Native boilerplate of sorts to kickstart my/my team's projects and emphasize a standard coding style.
 
-Why did I create these with so many libraries out there?  For the sake of learning how to better create clean, customizable, and re-usable components.
+Why did I create these with so many libraries out there? For the sake of learning how to better create clean, customizable, and re-usable components.
 
-Libraries like `react-native-elements` are great and extremely useful -- but they stifle true growth of learning and development (in my opinion) when habitually used blindly.
+Libraries like [react-native-elements](https://github.com/react-native-training/react-native-elements) are great and extremely useful -- but they stifle true growth of learning and development (in my opinion) when habitually used blindly.
+
+Here's a compilation of [awesome-react-native](https://github.com/jondot/awesome-react-native) libraries to use!
 
 Anyway, please create issues, PRs, etc., and...
 
