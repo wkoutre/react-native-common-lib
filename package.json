@@ -30,7 +30,10 @@
   "peerDependencies": {
     "react": ">= 16.2.0",
     "react-native": ">= 0.52.0",
-    "react-native-modal": ">= 5.2.0"
+    "react-native-modal": ">= 5.2.0",
+    "react-native-keyboard-aware-scroll-view": ">= 0.4.4",
+    "react-native-keyboard-spacer": ">= 0.4.1",
+    "underscore": ">= 1.8.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
