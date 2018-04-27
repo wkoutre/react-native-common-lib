@@ -105,7 +105,7 @@ const MyAssets = new CommonAssets({ TextStyles: MyTextStyles, Colors: MyColors }
 ```
 
 ```
-**OPTION 2:**
+// **OPTION 2:**
 const MyAssets = new CommonAssets({ textStylesConfig, Colors: MyColors })
 ```
 
