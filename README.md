@@ -131,6 +131,7 @@ Therefore, best practice is to create your own custom instances of `CreateTextSt
 - IPhoneXAwareView
 - PlatformAwareKeyboardSpacer
 - Touchable
+- TouchableText
 
 
 ## Background
