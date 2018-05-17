@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/wkoutre/react-native-common-lib#readme",
   "peerDependencies": {
-    "react": ">= 16.2.0",
+    "react": ">= 16.0.0",
     "react-native": ">= 0.52.0",
     "react-native-modal": ">= 5.2.0",
     "react-native-keyboard-aware-scroll-view": ">= 0.4.4",
