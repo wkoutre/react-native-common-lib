@@ -30,11 +30,11 @@
   "peerDependencies": {
     "react": ">= 16.0.0",
     "react-native": ">= 0.52.0",
-    "react-native-modal": ">= 5.2.0",
     "react-native-keyboard-aware-scroll-view": ">= 0.4.4",
     "react-native-keyboard-spacer": ">= 0.4.1",
-    "underscore": ">= 1.8.3",
-    "react-native-switch": ">= 1.5.0"
+    "react-native-modal": ">= 5.2.0",
+    "react-native-switch": ">= 1.5.0",
+    "underscore": ">= 1.8.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
@@ -42,6 +42,7 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-react-native": "^3.2.1",
