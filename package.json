@@ -1,6 +1,6 @@
 {
   "name": "react-native-common-lib",
-  "version": "1.5.16",
+  "version": "1.5.17",
   "description": "Clean, lightweight Components for React Native",
   "main": "index.js",
   "directories": {
