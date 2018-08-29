@@ -48,5 +48,8 @@
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-react-native": "^3.2.1",
     "prop-types": "15.6.1"
+  },
+  "dependencies": {
+    "react-native-common-lib": "^1.5.20"
   }
 }
