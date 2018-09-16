@@ -33,8 +33,7 @@
     "react-native-keyboard-aware-scroll-view": ">= 0.4.4",
     "react-native-keyboard-spacer": ">= 0.4.1",
     "react-native-modal": ">= 5.2.0",
-    "react-native-switch": ">= 1.5.0",
-    "underscore": ">= 1.8.3"
+    "react-native-switch": ">= 1.5.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
@@ -48,5 +47,8 @@
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-react-native": "^3.2.1",
     "prop-types": "15.6.1"
+  },
+  "dependencies": {
+    "underscore": "^1.9.1"
   }
 }
