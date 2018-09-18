@@ -8,7 +8,7 @@ const DEFAULT_PARAGRAPH_SIZES = {
   p3: 14,
   p4: 12,
   p5: 10,
-  p6: 8
+  p6: 8,
 };
 
 const DEFAULT_HEADER_SIZES = {
@@ -17,7 +17,7 @@ const DEFAULT_HEADER_SIZES = {
   h3: 22,
   h4: 20,
   h5: 18,
-  h6: 16
+  h6: 16,
 };
 
 const DEFAULT_H_FONT_WEIGHT = "300";
@@ -27,7 +27,7 @@ const createFontStyleObj = ({
   fontSizesObj,
   fontFamily,
   fontWeight,
-  applyLetterSpacing
+  applyLetterSpacing,
 }) => {
   const headerStyles = {};
 
@@ -38,7 +38,7 @@ const createFontStyleObj = ({
       fontFamily,
       fontSize,
       fontWeight,
-      lineHeight: fontSize * 1.65
+      lineHeight: fontSize * 1.65,
     };
 
     if (applyLetterSpacing) {
@@ -54,13 +54,13 @@ const ExampleTextStyles = StyleSheet.create({
     fontSizesObj: DEFAULT_HEADER_SIZES,
     fontWeight: DEFAULT_H_FONT_WEIGHT,
     fontFamily: FONT_FAMILY,
-    applyLetterSpacing: true
+    applyLetterSpacing: true,
   }),
   ...createFontStyleObj({
     fontSizesObj: DEFAULT_PARAGRAPH_SIZES,
     fontWeight: DEFAULT_P_FONT_WEIGHT,
-    fontFamily: FONT_FAMILY
-  })
+    fontFamily: FONT_FAMILY,
+  }),
 });
 
 export { ExampleTextStyles };
