@@ -11,7 +11,6 @@ Two classes provided by this library help with this:
 - [CreateTextStyles](https://github.com/wkoutre/react-native-common-lib/blob/master/lib/commonAssets/CreateTextStyles.js)
 - [CommonAssets](https://github.com/wkoutre/react-native-common-lib/blob/master/lib/commonHelpers/index.js)
 
-
 #### CreateTextStyles
 
 `CreateTextStyles` takes a `textStylesConfig` object with the following shape:
@@ -133,6 +132,10 @@ Therefore, best practice is to create your own custom instances of `CreateTextSt
 - Touchable
 - TouchableText
 
+## TO-DO
+
+- Convert everything to TypeScript
+- Add natively animated cross-platform AccordionList (done, but not in here)
 
 ## Background
 
