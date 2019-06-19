@@ -1,3 +1,7 @@
+# UPDATE: June 18, 2019
+
+This library is no longer maintained. Feel free to use as-is or extend at your leisure.
+
 # react-native-common-lib
 
 A lightweight library of reusable React Native components built from the ground up with a functional-styling designed API.
